@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+chroma_db/
+*.db
+*.sqlite
+data/cesantias_test_temp.xlsx
+resultado_prueba.txt
+.streamlit/
+.DS_Store
+Thumbs.db
+.vscode/
