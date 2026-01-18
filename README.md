@@ -10,6 +10,9 @@ Este proyecto es un Agente de Inteligencia Artificial especializado en Gestión 
 - **Interfaz Streamlit:** Chat interactivo con visualización del proceso de pensamiento del agente.
 - **Pruebas Unitarias:** Suite de tests para validar la integridad del RAG y la limpieza de datos SQL.
 
+## A tener en cuenta:
+Los costos asociados a AWS son para realizar la vectorización de la información del pdf y uso del modelo Haiku para entrega de respuestas y razonamiento del agento.
+
 ---
 
 ## Requisitos Previos
@@ -47,12 +50,12 @@ Este proyecto es un Agente de Inteligencia Artificial especializado en Gestión 
     MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
 
 
-5. **🖥️ Ejecución:**Interfaz de Usuario (Streamlit). Para lanzar el chat interactivo:
+5. **🖥️ Ejecución:** Interfaz de Usuario (Streamlit). Para lanzar el chat interactivo:
 
     ```Bash
     streamlit run app.py
 
-6. **Pruebas Unitarias:**Para validar el funcionamiento de los módulos de base de datos y RAG:
+6. **Pruebas Unitarias:** Para validar el funcionamiento de los módulos de base de datos y RAG:
 
     ```Bash
     python -m pytest tests/
