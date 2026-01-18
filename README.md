@@ -2,8 +2,6 @@
 # Prueba-tecnica-Summa-Agente-IA
 Prueba tecnica para la empresa summa Agente IA
 =======
-# HR Smart Agent - Summa (Grupo Argos)
-
 Este proyecto es un Agente de Inteligencia Artificial especializado en Gestión Humana para **Summa**. Utiliza **Claude 3 Haiku** a través de **AWS Bedrock** y una arquitectura de **MCP (Model Context Protocol)** para consultar políticas internas (RAG) y saldos de cesantías (SQL).
 
 ## Características
@@ -30,42 +28,40 @@ Este proyecto es un Agente de Inteligencia Artificial especializado en Gestión 
    cd Prueba-tecnica
 2. **Crear y activar entorno virtual:**
 
-Bash
-
-python -m venv venv
-# En Windows:
-.\venv\Scripts\activate
+    ```Bash
+    python -m venv venv
+    # En Windows:
+    .\venv\Scripts\activate
 
 3. **Instalar dependencias:**
 
-Bash
-
-pip install -r requirements.txt
+    ```Bash
+    pip install -r requirements.txt
 
 4. **Configurar variables de entorno:** Crea un archivo .env en la raíz con lo siguiente:
 
-Fragmento de código
+    ```Fragmento de código
 
-AWS_ACCESS_KEY_ID=tu_access_key
-AWS_SECRET_ACCESS_KEY=tu_secret_key
-AWS_REGION=us-east-1
-MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
+    AWS_ACCESS_KEY_ID=tu_access_key
+    AWS_SECRET_ACCESS_KEY=tu_secret_key
+    AWS_REGION=us-east-1
+    MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
 
 
 **🖥️ Ejecución**
 Interfaz de Usuario (Streamlit)
 Para lanzar el chat interactivo:
 
-Bash
+    ```Bash
 
-streamlit run app.py
+    streamlit run app.py
 
 **Pruebas Unitarias**
 Para validar el funcionamiento de los módulos de base de datos y RAG:
 
-Bash
+    ```Bash
 
-python -m pytest tests/
+    python -m pytest tests/
 
 
 **Estructura del Proyecto**
