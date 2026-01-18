@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Prueba-tecnica-Summa-Agente-IA
 Prueba tecnica para la empresa summa Agente IA
 =======
@@ -48,19 +47,14 @@ Este proyecto es un Agente de Inteligencia Artificial especializado en Gestión 
     MODEL_ID=anthropic.claude-3-haiku-20240307-v1:0
 
 
-**🖥️ Ejecución**
-Interfaz de Usuario (Streamlit)
-Para lanzar el chat interactivo:
+5. **🖥️ Ejecución:**Interfaz de Usuario (Streamlit). Para lanzar el chat interactivo:
 
     ```Bash
-
     streamlit run app.py
 
-**Pruebas Unitarias**
-Para validar el funcionamiento de los módulos de base de datos y RAG:
+6. **Pruebas Unitarias:**Para validar el funcionamiento de los módulos de base de datos y RAG:
 
     ```Bash
-
     python -m pytest tests/
 
 
